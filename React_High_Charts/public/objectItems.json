@@ -1,0 +1,39 @@
+
+[
+    {
+      "name": "Box Outline",
+      "icon":"fa fa-square-o fa-3x"
+    },
+    {
+      "name": "Box Filled",
+      "icon": "fa fa-square fa-3x"   
+    },
+    {
+      "name": "Ellipse Outline",
+      "icon": "fa fa-circle-o fa-3x"   
+    },
+    {
+      "name": "Ellipse Filled",
+      "icon": "fa fa-circle fa-3x"   	
+    },
+    {
+      "name": "Horizontal Line",
+      "icon": "fa fa-arrows-h fa-3x"   
+    },
+    {
+      "name": "Vertical Line",
+      "icon": "fa fa-arrows-v fa-3x"   
+    },
+    {
+      "name": "Horizontal Arrow",
+      "icon": "fa fa-long-arrow-right fa-3x"
+    },
+    {
+      "name": "Vertical Arrow",
+      "icon": "fa fa-long-arrow-dowx fa-3x"   
+    },
+    {
+      "name": "Table",
+      "icon": "fa fa-table fa-2x fa-3x"
+    }
+  ]
