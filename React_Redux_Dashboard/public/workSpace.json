@@ -1,0 +1,30 @@
+[
+    {
+    "type": "Insight Library",
+    "icon" :"fa fa-cube fa-2x"
+    },
+    {
+     "type": "Theme Manager",
+     "icon" : "fa fa-image fa-2x"
+    },
+    {
+     "type": "Marker",
+     "icon": "fa fa-home fa-2x"
+    },
+   
+    {
+     "type": "Icons",
+     "icon" : "fa fa-asterisk fa-2x"
+     },
+
+     {
+         "type": "Text",
+         "icon" : "fa fa-text-width fa-2x"
+     },
+
+     {
+       "type": "Object",
+       "icon" : "fa fa-home fa-2x"
+     }
+
+]

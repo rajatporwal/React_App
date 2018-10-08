@@ -1,0 +1,47 @@
+.first-div{
+  background-color: blue; 
+  width: 50%;
+  height: 50%;
+  max-width: 75%;
+  min-width: 25%;
+}
+
+.second-div{
+  background-color: blueviolet; 
+  width: 50%; 
+  height: 50%; 
+  max-width: 75%; 
+  min-width: 25%;
+}
+
+.left-d {
+  background-color: blue;
+   width: 50%; 
+   height: 50%;
+  }
+
+.right-d {
+  background-color: blueviolet;
+  width: 50%; 
+  height: 50%;
+}
+
+/* Float Css */
+
+.float-r{
+  float: right; 
+}
+
+.float-l{
+  float: left;
+}
+
+/* margin Css */
+
+.m-5{
+  margin: 5px;
+}
+
+.m-t-40{
+  margin-top: 40px;
+}

@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="../Zoom_component/index.css">
+  <title>Zoom In & Out</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        function zoom(zm,x,y) 
+        {
+            if(((parseInt(x.style.width)>=75) && zm>0) || ((parseInt(x.style.width)<=25) && zm<0))
+            {
+                return ;
+            }
+                x_width = parseInt(x.style.width);
+                y_width = parseInt(y.style.width);
+
+                (zm > 0) ?(
+                    x.style.width = (x_width + zm)+"%",
+                    y.style.width = (y_width - zm)+"%"
+                ) : (
+                    x.style.width = (x_width + zm)+"%",
+                    y.style.width = (y_width - zm)+"%"
+                )
+            var a= document.getElementById("left-div").innerHTML = parseInt(x.style.width) + 50 +  "%";    // provide ID of div here
+            var b= document.getElementById("right-div").innerHTML = parseInt(y.style.width) + 50 + "%";    // provide ID of div here
+        }
+    </script>
+</head>
+<body>
+        <div class="col-lg-8 col-lg-offset-2">
+            <div class="col-lg-12" style="margin-top: 40px;">
+                <div class="col-lg-12">
+                      <div class="col-lg-6" >
+                            <input class="float-l m-5" type="button" value ="-" onclick="zoom(-25,first,second)"/><p class="float-l m-5" id="left-div">100%</p>
+                            <input class="float-l m-5" type="button" value ="+" onclick="zoom(25,first,second)"/> 
+                      </div>
+                      <div class="col-lg-6">
+                            <input class="float-r m-5" type="button" value ="+" onclick="zoom(25,second,first)"/> <p class="float-r m-5" id="right-div">100%</p> 
+                            <input class="float-r m-5" type="button" value ="-" onclick="zoom(-25,second,first)" />
+                      </div>
+                </div>
+                <div class="col-lg-12">
+                <div class="col-lg-6" id="first" style="background-color: blue; width: 50%; height: 50%;  max-width: 75%; min-width: 25%;">
+                    <h1>This is first div</h1>
+                </div>
+                <div class="col-lg-6" id="second" style="background-color: blueviolet; width: 50%; height: 50%; max-width: 75%; min-width: 25%;">
+                    <h1>This is first div</h1>
+                </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+

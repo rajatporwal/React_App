@@ -1,0 +1,28 @@
+#draggable {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    padding: 10px;
+}
+
+#draggablenew {
+    width: 100px;
+    height: 100px;
+    background: #ccc;
+    padding: 10px;
+}
+
+#droppable {
+    position: absolute;
+    left: 180px;
+    top: 10;
+    width: 125px;
+    height: 125px;
+    background: #999;
+    color: #fff;
+    padding: 10px;
+    border: 4px solid #999;
+}
+.active {
+    border: 4px solid #F00 !important;
+}

@@ -1,0 +1,75 @@
+.first_div{
+  background-color: blue; 
+  height: 400px;
+  max-width: 75%;
+  min-width: 25%;
+  float:left;
+}
+
+.second_div{
+  background-color: blueviolet; 
+  height: 400px; 
+  max-width: 75%; 
+  min-width: 25%;
+  float:left
+}
+
+/* Float Css */
+
+.float-r{
+  float: right; 
+}
+
+.float-l{
+  float: left;
+}
+
+/* margin Css */
+
+.m-1{
+  margin: 1px
+}
+
+.m-5{
+  margin: 5px;
+}
+
+.m-t-40{
+  margin-top: 40px;
+}
+
+
+#draggable {
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+  padding: 10px;
+}
+
+#draggablenew {
+  width: 100px;
+  height: 100px;
+  background: #ccc;
+  padding: 10px;
+}
+
+#droppable {
+  position: absolute;
+  left: 180px;
+  top: 10;
+  width: 125px;
+  height: 125px;
+  background: #999;
+  color: #fff;
+  padding: 10px;
+  border: 4px solid #999;
+}
+.active {
+  border: 4px solid #F00 !important;
+}
+
+.drag{
+  background-color: grey;
+  width: 500px;
+  height: 500px;
+}

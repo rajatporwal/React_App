@@ -1,0 +1,19 @@
+
+[
+  {
+    "name": "Box Outline",
+    "icon":"fa fa-square-o fa-3x "
+  },
+  {
+    "name": "Box Filled",
+    "icon": "fa fa-square fa-3x"   
+  },
+  {
+    "name": "Ellipse Outline",
+    "icon": "fa fa-circle-o fa-3x"   
+  },
+  {
+    "name": "Ellipse Filled",
+    "icon": "fa fa-circle fa-3x"   	
+  }
+]

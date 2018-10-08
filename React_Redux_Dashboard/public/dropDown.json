@@ -1,0 +1,20 @@
+{
+"dropdown": {
+    "gsm": [
+      { "value": "R", "label":  "GSM Theme 1" },
+      { "value": "G", "label":  "GSM Theme 2" },
+      { "value": "B", "label":  "GSM Theme 3" },
+      { "value": "B", "label":  "GSM Theme 4" }
+    ],
+    "merchant": [
+      { "value": "R", "label":  "Merchant SE" },
+      { "value": "G", "label":  "Industry" },
+      { "value": "B", "label":  "Peer" }
+    ],
+    "english": [
+      { "value": "R", "label":  "English-Global"},
+      { "value": "G", "label":  "English-United States"},
+      { "value": "B", "label":  "Spaninsh-Spain"}
+    ]
+  }
+}

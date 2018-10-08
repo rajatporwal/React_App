@@ -1,0 +1,26 @@
+.Select-arrow-zone{
+    background: #fff url('../image/dropdown.png') no-repeat top right;
+    border-left: 0.5px solid #ccc;
+}
+.Select-arrow{
+    border:0px;
+}
+.Select-control{
+    border:0.5px solid #ccc;
+    height: 45px;
+}
+.Select{
+    font-size:12px;
+}
+.Select-option.is-focused {
+    background-color: #1274B8;
+    color:white;
+}
+.Select-placeholder, .Select--single > .Select-control .Select-value {
+    top: 6px;
+}
+.Select-input > input {
+    position: relative;
+    top: 6px;
+}
+
